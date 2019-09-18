@@ -18,18 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YRw-Mf-NDX">
-                                <rect key="frame" x="67" y="112" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.81887647890000004" green="1" blue="0.750813705" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mU7-Wx-Uqn">
+                                <rect key="frame" x="20" y="353.5" width="335" height="293.5"/>
+                                <color key="backgroundColor" red="1" green="0.55421877639999995" blue="0.50160565810000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mU7-Wx-Uqn">
-                                <rect key="frame" x="67" y="318" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YRw-Mf-NDX">
+                                <rect key="frame" x="20" y="40" width="335" height="293.5"/>
                                 <color key="backgroundColor" red="0.81887647890000004" green="1" blue="0.750813705" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="YRw-Mf-NDX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="4NR-5A-PTA"/>
+                            <constraint firstItem="mU7-Wx-Uqn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6sR-bI-ulf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YRw-Mf-NDX" secondAttribute="trailing" constant="20" id="KyG-ry-eHL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mU7-Wx-Uqn" secondAttribute="bottom" constant="20" id="TVd-F8-igb"/>
+                            <constraint firstItem="YRw-Mf-NDX" firstAttribute="width" secondItem="mU7-Wx-Uqn" secondAttribute="width" id="VDK-05-GiY"/>
+                            <constraint firstItem="YRw-Mf-NDX" firstAttribute="height" secondItem="mU7-Wx-Uqn" secondAttribute="height" id="azI-aS-tFR"/>
+                            <constraint firstItem="mU7-Wx-Uqn" firstAttribute="top" secondItem="YRw-Mf-NDX" secondAttribute="bottom" constant="20" id="c9F-00-kcH"/>
+                            <constraint firstItem="YRw-Mf-NDX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nhJ-Ms-J0X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mU7-Wx-Uqn" secondAttribute="trailing" constant="20" id="z6l-py-jRb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
